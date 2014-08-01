@@ -62,6 +62,7 @@ class UsersController < ApplicationController
         format.html { render action: "new" }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
+      puts "first changes"
     end
   end
 
